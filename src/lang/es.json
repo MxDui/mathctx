@@ -1,3 +1,5 @@
 {
-  "page.home.title": "Bienvenido a MathCTX"
+  "page.home.title": "Bienvenido a MathCTX",
+  "page.home.description": "MathCTX es una herramienta y comunidad para hacer matemáticas.",
+  "page.home.cta": "Entrar"
 }

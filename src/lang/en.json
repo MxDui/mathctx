@@ -1,3 +1,5 @@
 {
-  "page.home.title": "Welcome to MathCTX"
+  "page.home.title": "Welcome to MathCTX",
+  "page.home.description": "MathCTX is a tool and a community for doing math",
+  "page.home.cta": "Get started"
 }

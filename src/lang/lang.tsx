@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 
 const dictionaries: Record<string, () => Promise<Record<string, string>>> = {
   en: () => import("./en.json").then((module) => module.default),
-  nl: () => import("./es.json").then((module) => module.default),
+  es: () => import("./es.json").then((module) => module.default),
 };
 
 export const useDictionary = (locale: string | number) => {
