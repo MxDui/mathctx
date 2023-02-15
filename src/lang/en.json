@@ -1,5 +1,7 @@
 {
   "page.home.title": "Welcome to MathCTX",
   "page.home.description": "MathCTX is a tool and a community for doing math",
-  "page.home.cta": "Get started"
+  "page.home.cta": "Get started",
+  "page.dashboard.title": "Dashboard",
+  "page.dashboard.description": "Welcome to your dashboard, here you can choose what to do next"
 }
