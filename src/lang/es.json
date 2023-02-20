@@ -3,5 +3,7 @@
   "page.home.description": "MathCTX es una herramienta y comunidad para hacer matemáticas.",
   "page.home.cta": "Entrar",
   "page.dashboard.title": "Tablero",
-  "page.dashboard.description": "Bienvenido a tu tablero, aquí puedes escoger entre las diferentes opciones de lo que quieres hacer."
+  "page.dashboard.description": "Bienvenido a tu tablero, aquí puedes escoger entre las diferentes opciones de lo que quieres hacer.",
+  "page.dashboard.algebra.title": "Álgebra Superior",
+  "page.dashboard.algebra.description": "Ve definiciones, teoremas y ejemplos de álgebra superior."
 }

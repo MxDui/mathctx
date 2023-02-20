@@ -14,9 +14,11 @@ const Dashboard = () => {
         <p className="text-xl mb-5">{d?.["page.dashboard.description"]}</p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
           <SimpleCard
-            title="Card 1"
-            description="Description 1"
-            image="https://images.unsplash.com/photo-1676339817124-836bd7a23a47?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1587&q=80"
+            title={d?.["page.dashboard.algebra.title"] || "Algebra"}
+            description={
+              d?.["page.dashboard.algebra.description"] || "Description 1"
+            }
+            image="https://thumbs.dreamstime.com/z/s%C3%ADmbolos-y-objetos-de-la-%C3%A1lgebra-41425448.jpg"
           />
           <SimpleCard title="Card 2" description="Description 2" />
           <SimpleCard title="Card 3" description="Description 3" />

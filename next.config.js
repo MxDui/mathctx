@@ -6,7 +6,12 @@ const nextConfig = {
     defaultLocale: "en",
   },
   images: {
-    domains: ["images.unsplash.com"],
+    domains: [
+      "images.unsplash.com",
+      "c8.alamy.com",
+      "images.pexels.com",
+      "thumbs.dreamstime.com",
+    ],
   },
 };
 

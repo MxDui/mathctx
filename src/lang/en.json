@@ -3,5 +3,7 @@
   "page.home.description": "MathCTX is a tool and a community for doing math",
   "page.home.cta": "Get started",
   "page.dashboard.title": "Dashboard",
-  "page.dashboard.description": "Welcome to your dashboard, here you can choose what to do next"
+  "page.dashboard.description": "Welcome to your dashboard, here you can choose what to do next",
+  "page.dashboard.algebra.title": "Superior Algebra",
+  "page.dashboard.algebra.description": "See definitions, theorems and exercises for Superior Algebra"
 }
