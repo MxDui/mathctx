@@ -10,14 +10,14 @@ const SimpleCard = (props: SimpleCardProps) => {
       <motion.div
         whileHover={{ scale: 0.95 }}
         whileTap={{ scale: 0.95 }}
-        className="max-w-full rounded-xl  shadow-lg cursor-pointer  overflow-hidden"
+        className="max-w-full rounded-xl  shadow-lg cursor-pointer  overflow-hidden h-96 flex flex-col justify-end"
         style={{
-          backgroundImage: `url(${props.image})`,
+          backgroundImage: `linear-gradient(rgb(0 0 0 / 10%), rgb(0 0 0 / 80%)), url(${props.image})`,
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
       >
-        <div className="px-6 py-4 bg-gradient-to-b from-transparent to-[#1a202c]">
+        <div className="px-6 py-4 ">
           <div className="font-bold text-xl mb-2">
             {props.title}
             <p className="text-[#b6c0cd] text-base">{props.description}</p>

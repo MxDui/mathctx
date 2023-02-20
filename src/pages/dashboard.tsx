@@ -20,9 +20,41 @@ const Dashboard = () => {
             }
             image="https://thumbs.dreamstime.com/z/s%C3%ADmbolos-y-objetos-de-la-%C3%A1lgebra-41425448.jpg"
           />
-          <SimpleCard title="Card 2" description="Description 2" />
-          <SimpleCard title="Card 3" description="Description 3" />
-          <SimpleCard title="Card 4" description="Description 4" />
+          <SimpleCard
+            title={d?.["page.dashboard.discrete.title"] || "Discrete"}
+            description={
+              d?.["page.dashboard.discrete.description"] || "Description 2"
+            }
+            image="https://blog-media.byjusfutureschool.com/bfs-blog/2022/09/21090501/Article-Page-86.png"
+          />
+          <SimpleCard
+            title={d?.["page.dashboard.calculus.title"] || "Geometry"}
+            description={
+              d?.["page.dashboard.calculus.description"] || "Description 3"
+            }
+            image="https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/120636805/original/8fa719901b652c17b9150cb247f64e0be6727e45/do-calculus-and-algebra.jpg"
+          />
+          <SimpleCard
+            title={d?.["page.dashboard.geometry.title"] || "Geometry"}
+            description={
+              d?.["page.dashboard.geometry.description"] || "Description 4"
+            }
+            image="https://www.onlinemath4all.com/images/analyticalgeometryformulas7.png"
+          />
+          <SimpleCard
+            title={d?.["page.dashboard.statistics.title"] || "Statistics"}
+            description={
+              d?.["page.dashboard.statistics.description"] || "Description 5"
+            }
+            image="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Standard_Normal_Distribution.png/290px-Standard_Normal_Distribution.png"
+          />
+          <SimpleCard
+            title={d?.["page.dashboard.logic.title"] || "Logic"}
+            description={
+              d?.["page.dashboard.logic.description"] || "Description 6"
+            }
+            image="https://d3i71xaburhd42.cloudfront.net/6c511973e8ef9cad01387a3611ed61dc12a0719e/16-Table1-1.png"
+          />
         </div>
       </div>
     </>

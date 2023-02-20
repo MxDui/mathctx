@@ -5,5 +5,15 @@
   "page.dashboard.title": "Dashboard",
   "page.dashboard.description": "Welcome to your dashboard, here you can choose what to do next",
   "page.dashboard.algebra.title": "Superior Algebra",
-  "page.dashboard.algebra.description": "See definitions, theorems and exercises for Superior Algebra"
+  "page.dashboard.algebra.description": "See definitions, theorems and exercises for Superior Algebra",
+  "page.dashboard.discrete.title": "Discrete Mathematics",
+  "page.dashboard.discrete.description": "See definitions, theorems and exercises for Discrete Mathematics",
+  "page.dashboard.calculus.title": "Calculus",
+  "page.dashboard.calculus.description": "See definitions, theorems and exercises for Calculus",
+  "page.dashboard.statistics.title": "Statistics",
+  "page.dashboard.statistics.description": "See definitions, theorems and exercises for Statistics",
+  "page.dashboard.geometry.title": "Geometry",
+  "page.dashboard.geometry.description": "See definitions, theorems and exercises for Geometry",
+  "page.dashboard.logic.title": "Logic",
+  "page.dashboard.logic.description": "See definitions, theorems and exercises for Logic"
 }
